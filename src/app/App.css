@@ -1,0 +1,367 @@
+html, body, #root, #roo > div {
+    height: 100%;
+}
+
+.justify {
+    text-align: justify;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.footer {
+    margin-top: 20px;
+    width: 100%; 
+    min-height: 100px;
+    background-color: #3A3A3A;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer > p {
+    text-align: center;
+}
+
+.git {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.git:hover {
+    color: #B4B4B4;
+    text-decoration: underline;
+}
+
+.text-footer {
+    font-size: 1rem;
+}
+
+@media screen and (min-width: 900px) {
+    .text-footer {
+        font-size: 1rem;
+    }
+
+    .footer {
+        min-height: 60px;
+        justify-content: flex-end;
+    }
+ 
+    .footer > p {
+        text-align: right;
+    }
+}
+
+/* Navbar */
+.logo {
+    width: 70px;
+    margin-right: 4px;
+}
+
+@media screen and (min-width: 900px) {
+    .logo {
+        width: 90px;
+    }
+}
+
+/* Fin Navbar */
+
+/* About Me */
+.body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container-aboutme {
+    width: 100%;
+}
+
+.img {
+    width: 15rem;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+.aboutme {
+    padding: 0;
+}
+
+.parrafoAboutMe {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+}
+
+.tituloAboutMe {
+    margin-top: 0.9rem;
+    margin-bottom: 1.1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.preguntaAboutMe {
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.slider-height {
+    height: 240px;
+}
+
+.img-slider {
+    object-fit: cover;
+}
+
+.pad-slider {
+    margin: 0;
+}
+
+.titulaciones {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 2rem;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.prev, .next {
+    padding: 25px;
+}
+
+/* Tablet */
+@media screen and (min-width: 900px) {
+    .img {
+        width: 25rem;
+    }
+
+    .titulaciones {
+        font-size: 1.5rem;
+    }
+    .cardForm {
+        margin: 5rem;
+    }
+}
+
+/* Screen */
+@media screen and (min-width: 1200px) {
+    .img {
+        width: 30rem;
+    }
+
+    .aboutme {
+        padding-right: 4rem;
+    }
+
+    .pad-slider {
+        margin: 0 8rem 0 8rem;
+    }
+
+    .slider-height {
+        height: 300px;
+    }
+
+    .prev, .next {
+        padding: 45px;
+    }
+}
+
+/* Full screen */
+@media screen and (min-width: 1550px) {
+    .container-aboutme {
+        width: 80%;
+    }
+}
+/* Fin About Me */
+
+
+/* Home */
+.icon {
+    font-size: 30px;
+}
+
+.email {
+    font-size: 20px;
+    color: #000;
+    text-decoration: none;
+}
+
+.email:hover {
+    color: #474747;
+}
+
+.icon-services {
+    font-size: 50px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.descrp {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.knowme {
+    margin-top: 18px;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.knowme > img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.knowme-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 0.5rem 2rem;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.knowme-link {
+    text-decoration: none;
+    color: #fff;
+}
+
+.knowme-link:hover {
+    color: #fff;
+    opacity: 80%;
+}
+
+/* Tablet */
+@media screen and (min-width: 900px) {
+    .email {
+        font-size: 25px;
+    }
+}
+/* Fin Home */
+
+/* Formulario */
+.form {
+    background-color: #2A2A2A;
+    border-radius: 15px;
+    color: #fff;
+    height: 100%;
+}
+
+.help {
+    height: 100%;
+    background-color: #2A2A2A;
+    border-radius: 8px;
+    color: #fff;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.input-form {
+    width: 100%;
+    border: none;
+    background-color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 3px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.textarea-form {
+    resize: none;
+    height: 150px;
+}
+
+.title-contact {
+    color: #B4B4B4;
+    font-size: 1.5rem;
+}
+
+.contact {
+    color: #fff;
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+
+.contact:hover {
+    color: #B4B4B4;
+}
+
+.submit {
+    background-color: #4a4ca0;
+    color: #fff;
+    width: 100%;
+}
+
+.submit:hover {
+    background-color: #55579F;
+    color: #fff;
+}
+
+.contact-img {
+    width: 100%;
+    object-fit: cover;
+    height: 60%;
+    border-radius: 8px;
+}
+
+@media screen and (min-width: 1200px) {
+    .help {
+        width: 50%;
+        margin-right: 1rem;
+        margin-bottom: 0;
+    }
+}
+/* Fin Formulario */
+
+/* Métodos */
+#text-1, #text-2, #text-3 { min-width: 200px; }
+
+.methods {
+    width: 100%;
+}
+
+.number {
+    color: #fff;
+    background-color: #920C0C;
+    border-radius: 100%;
+    width: 40px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.text-step {
+    color: #B4B4B4;
+}
+
+hr {
+    color: #fff;
+}
+
+.step {
+    background-color: #1B1B1B;
+    padding: 1rem;
+    color: #fff;
+    border-radius: 5px;
+}
+
+@media screen and (min-width: 1200px) {
+    .methods {
+        width: 75%;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .help {
+        width: 50%;
+    }
+}
+
+/* Fin métodos */

@@ -1,0 +1,27 @@
+.bg-nav {
+    background-color: #3A3A3A;
+}
+
+.active-link {
+    color: #3F3F3F;
+}
+
+.margin-nb {
+    padding: 0;
+}
+
+.nav-item {
+    white-space: nowrap;
+}
+
+@media screen and (min-width: 992px) {
+    .margin-nb {
+        padding-left: 15rem;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    .margin-nb {
+        padding-right: 15rem;
+    }
+}
