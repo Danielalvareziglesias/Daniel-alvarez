@@ -20,28 +20,28 @@ export const SliderAboutMe = () =>
         </div>
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src="https://raw.githubusercontent.com/RubenFern/proyecto-web-dani/main/src/images/sociodeportiva.png" className="d-block w-100 img-slider slider-height" alt="sociodeportiva.png" />
+            <img src="https://raw.githubusercontent.com/Danielalvareziglesias/Daniel-lvarez/main/src/images/sociodeportiva.png" className="d-block w-100 img-slider slider-height" alt="sociodeportiva.png" />
             <div className="carousel-caption">
               <h3 className="titulaciones">Técnico Superior en Enseñanza y Animación Sociodeportiva</h3>
             </div>
           </div>
 
           <div className="carousel-item">
-            <img src="https://raw.githubusercontent.com/RubenFern/proyecto-web-dani/main/src/images/triatlon.png" className="d-block w-100 img-slider slider-height" alt="triatlon.png" />
+            <img src="https://raw.githubusercontent.com/Danielalvareziglesias/Daniel-lvarez/main/src/images/triatlon.png" className="d-block w-100 img-slider slider-height" alt="triatlon.png" />
             <div className="carousel-caption">
               <h3 className="titulaciones">Entrenador de Nivel 1 de Triatlón</h3>
             </div>
           </div>
 
           <div className="carousel-item">
-            <img src="https://raw.githubusercontent.com/RubenFern/proyecto-web-dani/main/src/images/piscina2.png" className="d-block w-100 img-slider slider-height" alt="condicionamiento.png" />
+            <img src="https://raw.githubusercontent.com/Danielalvareziglesias/Daniel-lvarez/main/src/images/piscina2.png" className="d-block w-100 img-slider slider-height" alt="condicionamiento.png" />
             <div className="carousel-caption">
               <h3 className="titulaciones">Técnico Especialista en Hidrocinésia y Fitness Acuático</h3>
             </div>
           </div>
 
           <div className="carousel-item">
-            <img src="https://raw.githubusercontent.com/RubenFern/proyecto-web-dani/main/src/images/acondfisico.jpg" className="d-block w-100 img-slider slider-height" alt="acondfisico.png" />
+            <img src="https://raw.githubusercontent.com/Danielalvareziglesias/Daniel-lvarez/main/src/images/acondfisico.jpg" className="d-block w-100 img-slider slider-height" alt="acondfisico.png" />
             <div className="carousel-caption">
               <h3 className="titulaciones">Cursando un Grado Superior en Acondicionamiento Físico Deportivo</h3>
             </div>

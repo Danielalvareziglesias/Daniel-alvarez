@@ -47,7 +47,7 @@ export const Form = () =>
     return (
         <div className="animate__animated animate__fadeIn container d-flex justify-content-center p-3">
             <div className="help">
-                <img src="https://raw.githubusercontent.com/RubenFern/proyecto-web-dani/main/src/images/contacto.jpg" className="contact-img" alt="contacto.jpg" />
+                <img src="https://raw.githubusercontent.com/Danielalvareziglesias/Daniel-lvarez/main/src/images/contacto.jpg" className="contact-img" alt="contacto.jpg" />
 
                 <div className="d-flex justify-content-around flex-column pb-3">
                     <h2 className="mt-1">¿En qué puedo ayudarte?</h2>

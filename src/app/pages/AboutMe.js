@@ -36,8 +36,8 @@ export const AboutMe = () =>
         <div className="d-flex justify-content-center">
           <img
             className="rounded-3 img" 
-            src="https://raw.githubusercontent.com/RubenFern/proyecto-web-dani/main/src/images/fotoDani.jpg"
-            alt="Daniel">
+            src="https://raw.githubusercontent.com/Danielalvareziglesias/Daniel-lvarez/main/src/images/fotoDani.jpg"
+            alt="Daniel.jpg">
           </img>
         </div>  
       </div>

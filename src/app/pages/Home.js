@@ -81,7 +81,7 @@ export const Home = () =>
             </div>
 
             <div className="animate__animated animate__fadeIn knowme">
-                <img src="https://raw.githubusercontent.com/RubenFern/proyecto-web-dani/main/src/images/conoceme.jpg" alt="conoceme.jpg" />
+                <img src="https://raw.githubusercontent.com/Danielalvareziglesias/Daniel-lvarez/main/src/images/conoceme.jpg" alt="conoceme.jpg" />
                 <div className="knowme-text">
                     <Link className="knowme-link" to="/sobre-mi">Conóceme</Link> 
                 </div>

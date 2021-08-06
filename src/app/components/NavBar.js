@@ -13,7 +13,7 @@ export const NavBar = () =>
         <nav className="navbar navbar-expand-lg navbar-dark bg-nav">
             <div className="container-fluid">
                 <NavLink exact className="navbar-brand" to="/">
-                    <img src="https://raw.githubusercontent.com/RubenFern/proyecto-web-dani/main/src/images/logo.png" alt="logo.png" className="logo" />
+                    <img src="https://raw.githubusercontent.com/Danielalvareziglesias/Daniel-lvarez/main/src/images/logo.png" alt="logo.png" className="logo" />
                     Daniel Álvarez
                 </NavLink>
                 <button 
